@@ -18,6 +18,10 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h1.title {
+    color: #4aaaa5;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -85,6 +89,21 @@ nav a {
     font-weight: 800;
     padding: 15px 10px;
     color: #777777;
+    text-transform: uppercase;
+}
+
+/* nav link */
+
+nav a:visited {
+    color: #777700;
+}
+
+/* selected nav link */
+
+nav a.selected,
+nav a:hover {
+    color: #666666;
+    text-decoration: underline;
 }
 
 .container {
@@ -104,6 +123,14 @@ nav a {
 #profile-img {
     float: left;
     margin-right: 15px;
+}
+
+.portfolio-img {
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+    height: 200px;
+    width: 30%;
 }
 
 /* .profile-image {
@@ -131,4 +158,39 @@ footer p {
     width: 20px;
     height: 20px;
     margin: 10px 5px;
+}
+
+/* contact form */
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #337673;
+}
+
+.contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
