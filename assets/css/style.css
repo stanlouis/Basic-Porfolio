@@ -54,7 +54,7 @@ h1 {
     line-height: 0.8em;
 }
 
-h2 {
+h4.subtitle {
     font-size: 0.75em;
     margin: -5px 0 0;
     font-weight: normal;
@@ -62,7 +62,7 @@ h2 {
 
 /**********************************
   NAVIGATION
-  ***********************************/
+***********************************/
 
 nav {
     text-align: center;
@@ -108,7 +108,8 @@ nav a:hover {
 
 /**********************************
   Main
-  ***********************************/
+***********************************/
+
 #main {
     width: 960px;
     background-color: white;
@@ -119,8 +120,9 @@ nav a:hover {
     box-sizing: border-box;
 }
 
-h1.title {
+h2.title {
     color: #4aaaa5;
+    font-size: 2rem;
 }
 
 #profile-img {
