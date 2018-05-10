@@ -18,10 +18,6 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1.title {
-    color: #4aaaa5;
-}
-
 a {
     color: white;
     text-decoration: none;
@@ -110,6 +106,9 @@ nav a:hover {
     min-height: calc(100vh - 50px);
 }
 
+/**********************************
+  Main
+  ***********************************/
 #main {
     width: 960px;
     background-color: white;
@@ -120,17 +119,33 @@ nav a:hover {
     box-sizing: border-box;
 }
 
+h1.title {
+    color: #4aaaa5;
+}
+
 #profile-img {
     float: left;
     margin-right: 15px;
 }
 
-.portfolio-img {
+#gallery li {
     float: left;
+    width: 33%;
+    text-align: center;
+}
+
+#gallery li p {
+    margin: 0;
+    /* padding: 5%; */
+    font-size: 0.75em;
+    color: #777777;
+}
+
+.portfolio-img {
     margin-right: 15px;
     margin-top: 15px;
-    height: 200px;
-    width: 30%;
+    height: 300px;
+    width: 290px;
 }
 
 /* .profile-image {
@@ -142,6 +157,7 @@ nav a:hover {
 
 p {
     line-height: 28px;
+    font-size: 1.2em;
 }
 
 footer {
